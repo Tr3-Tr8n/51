@@ -12,7 +12,7 @@ if st.button('Confirm'):
   if len(answers) == len_quiz:
     my_bar.progress(100)
     st.write('Ban da hoan thanh day du thong tin!')
-    st.ballons()
+    st.balloons()
   else:
     my_bar.progress(len(answers)/len_quiz)
   for i in range(len(answers)):
